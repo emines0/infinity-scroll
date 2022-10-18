@@ -37,3 +37,27 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%); /* centering image no matter which size it is*/
 }
+
+
+/* Image container */
+
+.image-container {
+  margin: 10px 20%;
+}
+
+.image-container img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* Media Query: Large Smartphone */
+@media screen and (max-width: 600px ) {
+  h1 {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+  }
+
+  .image-container {
+    margin: 10px;
+  }
+}
