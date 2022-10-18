@@ -20,6 +20,10 @@ h1 {
   letter-spacing: 0.313rem;
 }
 
+.error {
+  color: #cf1010;
+}
+
 /* Loader */
 .loader {
   position: fixed;
